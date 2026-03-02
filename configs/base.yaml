@@ -1,0 +1,26 @@
+paths:
+  data_dir: data
+  results_dir: results
+  checkpoints_dir: checkpoints
+
+models:
+  target: Qwen/Qwen2.5-1.5B
+  target_revision: main  # зафиксировать hash после скачивания
+  prm: Qwen/Qwen2.5-Math-PRM-7B
+  prm_revision: main     # зафиксировать hash после скачивания
+  prm_dtype: auto         # fp16 на A100, int8 если не хватает памяти
+
+# baseline для сравнения (подключить при необходимости)
+# distill_baseline: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+
+# одинаковые для всех моделей, менять только здесь
+eval:
+  temperature: 0.0
+  max_new_tokens: 8192
+  do_sample: false
+
+datasets:
+  train_source: open-r1/OpenR1-Math-220k
+  eval:
+    - gsm8k_test
+    - math_500
