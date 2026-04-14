@@ -1,0 +1,62 @@
+{
+  "c2048_v500": {
+    "examples": 500,
+    "total_tokens": 825428,
+    "avg_tokens": 1651
+  },
+  "c2048_v1000": {
+    "examples": 1000,
+    "total_tokens": 1639787,
+    "avg_tokens": 1640
+  },
+  "c2048_v2000": {
+    "examples": 2000,
+    "total_tokens": 3289150,
+    "avg_tokens": 1645
+  },
+  "c2048_v5000": {
+    "examples": 5000,
+    "total_tokens": 8236149,
+    "avg_tokens": 1647
+  },
+  "c4096_v500": {
+    "examples": 500,
+    "total_tokens": 1370630,
+    "avg_tokens": 2741
+  },
+  "c4096_v1000": {
+    "examples": 1000,
+    "total_tokens": 2742012,
+    "avg_tokens": 2742
+  },
+  "c4096_v2000": {
+    "examples": 2000,
+    "total_tokens": 5413917,
+    "avg_tokens": 2707
+  },
+  "c4096_v5000": {
+    "examples": 5000,
+    "total_tokens": 13412960,
+    "avg_tokens": 2683
+  },
+  "c8192_v500": {
+    "examples": 500,
+    "total_tokens": 2133341,
+    "avg_tokens": 4267
+  },
+  "c8192_v1000": {
+    "examples": 1000,
+    "total_tokens": 4283069,
+    "avg_tokens": 4283
+  },
+  "c8192_v2000": {
+    "examples": 2000,
+    "total_tokens": 8549474,
+    "avg_tokens": 4275
+  },
+  "c8192_v5000": {
+    "examples": 5000,
+    "total_tokens": 21127523,
+    "avg_tokens": 4226
+  }
+}
