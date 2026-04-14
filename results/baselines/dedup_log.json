@@ -1,0 +1,30 @@
+[
+  {
+    "train_idx": 8522,
+    "test_source": "math500",
+    "containment": 1.0,
+    "train": "Given that\n\\begin{align*}x_{1}&=211,\\\\ x_{2}&=375,\\\\ x_{3}&=420,\\\\ x_{4}&=523,\\ \\text{and}\\\\ x_{n}&=x_{n-1}-x_{n-2}+x_{n-3}-x_{n-4}\\ \\text{when}\\ n\\geq5, \\end{align*}\nfind the value of $x_{531}+x_{753}+x_{975}$.",
+    "test": "Given that \\begin{align*}x_{1}&=211,\\\\ x_{2}&=375,\\\\ x_{3}&=420,\\\\ x_{4}&=523,\\ \\text{and}\\\\ x_{n}&=x_{n-1}-x_{n-2}+x_{n-3}-x_{n-4}\\ \\text{when}\\ n\\geq5, \\end{align*}find the value of $x_{531}+x_{753}+x_{975}$."
+  },
+  {
+    "train_idx": 13878,
+    "test_source": "math500",
+    "containment": 1.0,
+    "train": "What is the value of  $(3x - 2)(4x + 1) - (3x - 2)4x + 1$ when $x=4$?\n$\\mathrm{(A)}\\ 0 \\qquad\\mathrm{(B)}\\ 1 \\qquad\\mathrm{(C)}\\ 10 \\qquad\\mathrm{(D)}\\ 11 \\qquad\\mathrm{(E)}\\ 12$",
+    "test": "What is the value of $$\n(3x-2)(4x+1)-(3x-2)4x+1\n$$ when $x=4$?"
+  },
+  {
+    "train_idx": 30607,
+    "test_source": "math500",
+    "containment": 0.864,
+    "train": "Let $F(z)=\\dfrac{z+i}{z-i}$ for all complex numbers $z\\neq i$, and let $z_n=F(z_{n-1})$ for all positive integers $n$. Given that $z_0=\\dfrac{1}{137}+i$ and $z_{2002}=a+bi$, where $a$ and $b$ are real numbers, find $a+b$.",
+    "test": "Let $F(z)=\\frac{z+i}{z-i}$ for all complex numbers $z\\not= i,$ and let $z_n=F(z_{n-1})$ for all positive integers $n.$ Given that $z_0=\\frac 1{137}+i,$ find $z_{2002}.$"
+  },
+  {
+    "train_idx": 37196,
+    "test_source": "math500",
+    "containment": 1.0,
+    "train": "As the Kubiks head out of town for vacation, Jerry takes the first driving shift while Hannah and most of the kids settle down to read books they brought along.  Tony does not feel like reading, so Alexis gives him one of her math notebooks and Tony gets to work solving some of the problems, and str",
+    "test": "Four distinct circles are drawn in a plane. What is the maximum number of points where at least two of the circles intersect?"
+  }
+]
