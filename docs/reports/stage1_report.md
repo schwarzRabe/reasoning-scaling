@@ -29,4 +29,11 @@
 
 ## Результаты
 
+**Бейзлайн (Qwen2.5-1.5B без дообучения):**
+- GSM8K: acc=0.625 [0.598, 0.651], none_rate=0.1%
+- MATH-500: acc=0.276 [0.238, 0.316], none_rate=25.2%
+- Промпт без ChatML, max_new_tokens=512
+- GSM8K: lenient парсер, MATH-500: строгий (\boxed{})
+- Результаты: results/baselines/baseline.json
+
 ## Проблемы
