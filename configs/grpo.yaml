@@ -1,9 +1,11 @@
 training:
   lr: 5e-5
+  beta: 0.04
   full_steps: 2000
   short_steps: 500
   batch_size: 4
   num_generations: 8
+  checkpoint_every: 50
 
 grid:
   - volume: 500
