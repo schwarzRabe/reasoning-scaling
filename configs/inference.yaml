@@ -1,6 +1,6 @@
 generation:
   n_values: [1, 4, 8, 16, 32]
-  temperature: 0.7
+  temperature: 1.0
   max_new_tokens: 8192
 
 strategies:
