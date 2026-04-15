@@ -1,17 +1,3 @@
-data/subsets/
-data/generations/
-checkpoints/
-__pycache__/
-*.egg-info/
-*.pyc
-dist/
-build/
-.ipynb_checkpoints/
-wandb/
-.DS_Store
-.vscode/
-.idea/
-
 # Данные (Google Drive)
 data/subsets/
 data/generations/
