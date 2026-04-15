@@ -11,3 +11,32 @@ wandb/
 .DS_Store
 .vscode/
 .idea/
+
+# Данные (Google Drive)
+data/subsets/
+data/generations/
+checkpoints/
+
+# Результаты inference 
+# JSON в results/ остаются в git
+results/inference/generations/
+results/inference/prm_scores/
+
+# Python
+__pycache__/
+*.egg-info/
+*.pyc
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logging
+wandb/
+*.log
