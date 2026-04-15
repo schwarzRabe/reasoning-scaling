@@ -1,10 +1,16 @@
+# Training (02_sft, 03_grpo)
 torch>=2.0
-transformers>=4.40
+transformers==4.57.6
 peft>=0.10
-trl>=0.8
+trl>=1.1.0
 datasets>=2.18
 accelerate>=0.28
-pyyaml>=6.0
+
+# Inference (04_inference) — ставить ПОСЛЕ обучения, конфликтует с transformers
+# vllm>=0.19.0
+
+# Analysis & utilities
 numpy>=1.24
 matplotlib>=3.7
 scipy>=1.10
+pyyaml>=6.0
