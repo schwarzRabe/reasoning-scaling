@@ -1,0 +1,25 @@
+lora:
+  rank: 64
+  alpha: 64
+  target_modules: all-linear
+  dropout: 0.0
+
+training:
+  lr: 2e-4
+  num_epochs: 3
+  per_device_batch_size: 2
+  gradient_accumulation: 8    # effective batch = 2 × 8 = 16
+  max_seq_length: 8192
+  warmup_ratio: 0.05
+  lr_scheduler: cosine
+  bf16: true
+
+grid:
+  volumes: [500, 1000, 2000, 5000]
+  cot_lengths: [2048, 4096, 8192]
+  seeds: [42, 43, 44]
+  # Итого: 4 × 3 × 3 = 36 прогонов
+
+validation:
+  size: 500
+  seed: 0    # отделяется до формирования подмножеств

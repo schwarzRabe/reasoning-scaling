@@ -1,1 +1,20 @@
+paths:
+  data_dir: data
+  results_dir: results
+  checkpoints_dir: checkpoints
 
+models:
+  target: Qwen/Qwen2.5-1.5B
+  prm: Qwen/Qwen2.5-Math-PRM-7B
+
+eval:
+  temperature: 0.0
+  max_new_tokens: 4096
+  do_sample: false
+
+datasets:
+  train_source: open-r1/OpenR1-Math-220k
+  train_split: default
+  eval:
+    - gsm8k_test    # 1319 задач, школьная математика
+    - math_500      # 500 задач, олимпиадная математика

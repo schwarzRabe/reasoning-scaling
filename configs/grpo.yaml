@@ -1,0 +1,25 @@
+lora:
+  rank: 64
+  alpha: 64
+  target_modules: all-linear
+  dropout: 0.0
+
+training:
+  lr: 5e-6                       # порядок величины соответствует DeepSeekMath (1e-6)
+  beta: 0.04                     # KL-коэффициент, DeepSeekMath [16]
+  num_generations: 8              # ограничение VRAM (одна GPU A100 80 ГБ)
+  max_completion_length: 4096
+  per_device_batch_size: 4
+  gradient_accumulation: 4        # effective batch = 4 × 4 = 16
+  checkpoint_every: 50
+  reward: binary                  # 1.0 верно, 0.0 неверно
+
+grid:
+  - volume: 500
+    steps: 2000
+  - volume: 5000
+    steps: 2000
+  - volume: 1000
+    steps: 500
+  - volume: 2000
+    steps: 500

@@ -1,0 +1,21 @@
+generation:
+  n_samples: 32
+  n_values: [1, 4, 8, 16, 32]
+  temperature: 1.0                # Wu et al. [3]
+  seed: 42
+  max_tokens:
+    gsm8k: 2048                   # школьные задачи, короткие решения
+    math500: 4096                 # олимпиадные задачи, длинные CoT
+  stop_tokens:
+    - "<|im_end|>"
+    - "<|endoftext|>"
+
+strategies:
+  - majority_vote
+  - prm_best_of_n                # ranking по log_score
+  - weighted_vote                 # формула Math-Shepherd [13]
+
+prm:
+  model: Qwen/Qwen2.5-Math-PRM-7B
+  max_length: 16384               # guard для длинных решений
+  step_separator: "\n\n"
