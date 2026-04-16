@@ -40,3 +40,8 @@ docs/           текст ВКР и отчёты
 3. Запустить ноутбуки последовательно
  
 Параметры экспериментов зафиксированы в `configs/`. Результаты сохраняются на Google Drive с кэшированием и resume.
+
+## Google Drive
+https://drive.google.com/drive/folders/1Qq5Nhlb6d_A0ptdI_-6x6bPCIr6FZgWq?usp=drive_link
+https://drive.google.com/drive/folders/11Q0MwHX_y_0fd4ngmJ1p4IymsBNULEkP?usp=drive_link
+https://drive.google.com/drive/folders/1UhbCTb21tA9dYBz2IvYT869XA5iepfWK?usp=drive_link
