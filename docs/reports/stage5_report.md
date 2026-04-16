@@ -93,5 +93,4 @@
 | 04_inference (все модели) | ○ после grpo |
 | 05_analysis (финальный) | ○ после inference |
 
-**После eval 36 SFT-моделей:** перезапустить 05_analysis — появятся learning curves, val_loss scatter, полный Парето-фронт с точками пересечения стратегий.
 
