@@ -16,9 +16,9 @@ training:
 
 grid:
   - volume: 500
-    steps: 2000
+    steps: 500
   - volume: 5000
-    steps: 2000
+    steps: 500
   - volume: 1000
     steps: 500
   - volume: 2000
